@@ -1,0 +1,12 @@
+@keyframes navAnimation{
+	0% {transform:translateY(0px);}
+	50% {transform: translateY(50px);}
+	100% {transform:translateY(0px);}
+}
+    /*z-index: 0;
+    transition: transform 300ms ease-in-out;
+    transform-origin: center center;
+    background-position: center bottom;
+    background-size: contain;
+    background-repeat: no-repeat;*/
+

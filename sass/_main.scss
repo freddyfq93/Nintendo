@@ -1,0 +1,218 @@
+@import "keyFrames";
+
+
+.navbar{
+	background:transparent;
+	border:none;
+	.navbar-brand{
+		height:80px;
+		width:170px;
+		background-color: red;
+		border-radius: 0 0 15px 15px;
+		&:hover{
+			background-color:red;
+		}
+		.logoNav{
+			height: 30px;
+			width: 110px;
+		}
+	}
+	.navbar-collapse{
+		.navbar-form{
+			input{
+				border-radius:20px;    
+				border: solid 1px #CCC;				    
+			}
+		}
+		.nav{
+			li{ 
+				&:hover > ul{
+					display: block;
+				}
+				.switch, .amiibo, .myN{
+					&:hover{
+						background-color:#fff;
+						position:center;
+
+					}
+				}
+				.ds{
+					&:hover{
+						background-color:#ce181e;
+						position:center;
+
+					}
+				}
+
+				.wii{
+					&:hover{
+						background-color:#0096c8;
+						position:center;
+
+					}
+				}
+
+				.store{
+					&:hover{
+						background-color:#ff7d00;
+						position:center;
+
+					}
+				}
+
+				.play{
+					&:hover{
+						background-color:#ff3f3f;
+						position:center;
+
+					}
+				}
+
+				.sup{
+					&:hover{
+						background-color:#00bff3;
+						position:center;
+
+					}
+				}
+
+				ul{
+                    list-style: none;
+                    background-color:transparent;
+                    border:none;
+                    box-shadow:none;
+					.listContentUno{
+						width: 1250px;
+    				  	height: 400px;
+    					display:flex;
+    					float: right;
+    					margin: 0 -736px;
+    					/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5e5e5+100;White+3D */
+background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(top,  #ffffff 0%, #e5e5e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #ffffff 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #ffffff 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+
+
+
+    					.positionA{
+    						display: flex;
+    						flex-direction: column;
+	    					.mario-running{
+	    						display: inline-block;
+	    						img{
+	    							animation-name: navAnimation;
+	    							animation-duration: 10s;
+	    							animation-iteration-count:infinite;
+	    							width: 250px;
+	    							height: 250px;
+	    						}
+	    					}
+	    					.pipe{
+	    						display: inline-block;
+	    						img{
+	    							width: 250px;
+    								height: 195px;
+	    						}
+	    					}
+	    				}
+						.bloque1{
+							a{  
+
+								text-decoration: none;
+								text-align: center;
+								display: flex;
+								flex-direction: column;
+								article{
+									margin-left: 10%;
+    								margin-top: 5%;
+    								background-color:#e60012;
+    								border-radius:25px;
+    								color: #fff;
+    								display: inline-block;
+    								.icon-joy{
+										background-image:url("../css/img/home@2x.jpg");
+										height: 300px;
+										background-size: 250px 300px;
+										background-repeat: no-repeat;
+										display: inline-block;
+										width: 240px;
+									}
+								}
+							}   
+						}
+					}
+					.listContentDos{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -398px;
+						background-color:#ce181e;
+					}
+					.listContentTres{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -461px;
+						background-color:#0096c8;
+					}
+					.listContentCuatro{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -566px;
+						background-color:#ff7d00;
+					}
+					.listContentCinco{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -638px;
+						background-color:#fff;
+					}
+					.listContentSeis{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -756px;
+						background-color:#ff3f3f;
+					}
+					.listContentSiete{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -837px;
+						background-color:#00bff3;
+					}
+					.listContentOcho{
+						width: 1100px;
+						height: 900px;
+						position:center;
+						float: none;
+						margin: 0 -947px;
+						background-color:#fff;
+					}
+
+				}
+			}
+		}
+	}
+}
+header{
+	background-color:rgb(231,0,18);
+	margin: 0 auto 30px;
+	position:relative;
+	width:100%;
+	height:600px;
+	.BGImg{
+		background-image:url("../css/img/principalSwitch.jpg");
+		height: 450px;
+	}
+}
